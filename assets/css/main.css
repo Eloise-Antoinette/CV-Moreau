@@ -74,6 +74,10 @@ input, select, textarea {
 
 /* Basic */
 
+iframe {
+	width: 100%;
+}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -1219,6 +1223,10 @@ padding-bottom: 1em;
 
 		@media screen and (max-width: 736px) {
 
+			#banner{
+				height: 3em;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1463,6 +1471,24 @@ padding-bottom: 1em;
 		}
 
 		@media screen and (max-width: 480px) {
+
+			#four ul.feature-icons {
+				margin-top: 0em;
+			}
+
+			#banner{
+				height: 3em;
+			}
+
+			ul.feature-icons {
+				margin-top: -6em;
+			}
+
+			iframe{
+				width: 90%;
+				position: relative;
+				float: center;
+			}
 
 			.row {
 				display: flex;
