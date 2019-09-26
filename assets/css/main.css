@@ -72,10 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+p{
+	text-align: justify;
+}
 /* Basic */
 
 iframe {
 	width: 100%;
+	margin-left: -6em;
 }
 
 	html {
@@ -243,11 +247,8 @@ padding-bottom: 1em;
 		text-align: right;
 	}
 
-/* Row 
+/* Row */
 
-#banner{
-	display : none;
-}*/
 
 	.row {
 		display: flex;
@@ -491,9 +492,7 @@ padding-bottom: 1em;
 				}
 
 		@media screen and (max-width: 1680px) {
-			#banner{
-				display: hidden;
-			}
+
 
 			.row {
 				display: flex;
@@ -740,9 +739,6 @@ padding-bottom: 1em;
 
 		@media screen and (max-width: 1280px) {
 
-			#banner{
-				display: none;
-			}
 
 			.row {
 				display: flex;
@@ -989,10 +985,7 @@ padding-bottom: 1em;
 
 		@media screen and (max-width: 1024px) {
 
-			#banner{
-				display: none;
-			}
-
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1237,10 +1230,6 @@ padding-bottom: 1em;
 		}
 
 		@media screen and (max-width: 736px) {
-
-			#demo{
-				display : none;
-			}
 
 			
 			.row {
@@ -1492,17 +1481,14 @@ padding-bottom: 1em;
 				margin-top: 0em;
 			}
 
-			#demo{
-				display:none;
-			}
 
 			ul.feature-icons {
 				margin-top: -6em;
 			}
 
 			iframe{
-				width: 90%;
-				position: relative;
+				width: 100%;
+				
 				float: center;
 			}
 
@@ -2512,17 +2498,17 @@ height: 100px;
                 vertical-align: top;
                 width: 48%;
                 margin-bottom: 3em;
-                font-size: 1.2em;
             }
 
 
 #comp {
-    margin-top: -2em;
+    margin-top: -3em;
     margin-bottom: 3em;
 }
 
 
 #qualist {
+	margin-left: 2em;
     margin-top: -3em;
 }
 
