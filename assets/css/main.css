@@ -243,7 +243,11 @@ padding-bottom: 1em;
 		text-align: right;
 	}
 
-/* Row */
+/* Row 
+
+#banner{
+	display : none;
+}*/
 
 	.row {
 		display: flex;
@@ -487,6 +491,9 @@ padding-bottom: 1em;
 				}
 
 		@media screen and (max-width: 1680px) {
+			#banner{
+				display: hidden;
+			}
 
 			.row {
 				display: flex;
@@ -733,6 +740,10 @@ padding-bottom: 1em;
 
 		@media screen and (max-width: 1280px) {
 
+			#banner{
+				display: none;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -977,6 +988,10 @@ padding-bottom: 1em;
 		}
 
 		@media screen and (max-width: 1024px) {
+
+			#banner{
+				display: none;
+			}
 
 			.row {
 				display: flex;
@@ -1223,10 +1238,11 @@ padding-bottom: 1em;
 
 		@media screen and (max-width: 736px) {
 
-			#banner{
-				height: 3em;
+			#demo{
+				display : none;
 			}
 
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1476,8 +1492,8 @@ padding-bottom: 1em;
 				margin-top: 0em;
 			}
 
-			#banner{
-				height: 3em;
+			#demo{
+				display:none;
 			}
 
 			ul.feature-icons {
@@ -1824,7 +1840,7 @@ padding-bottom: 1em;
 	}
 
 	header.major h2 {
-		color: #88b8c9;
+		color: #4c6a74;
 		font-size: 2.6em;
 	}
 
@@ -1888,7 +1904,7 @@ padding-bottom: 1em;
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #88b8c9;
+			border-color: #81a0aa;
 		}
 
 	select {
@@ -1993,7 +2009,7 @@ padding-bottom: 1em;
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #88b8c9;
+			border-color: #81a0aa;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2025,8 +2041,8 @@ padding-bottom: 1em;
 	:-ms-input-placeholder {
 		color: #aaa !important;
 		font-style: italic;
-		opacity: 1.0;
-	}0.5
+		opacity: 0;
+	}
 
 /* Box */
 
@@ -2459,7 +2475,7 @@ height: 100px;
 			}
 
 			ul.feature-icons li:before {
-				background: #88b8c9;
+				background: #dda15e;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2473,7 +2489,7 @@ height: 100px;
 			}
 
 #qualité:before {
-    background: #4c6a74;
+    background: #b27a3c;
     border-radius: 100%;
     color: #ffffff;
     display: block;
@@ -2726,7 +2742,7 @@ ul.icons {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #88b8c9;
+			background-color: #81a0aa;
 			color: #ffffff !important;
 		}
 
@@ -2734,14 +2750,14 @@ ul.icons {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #88b8c9;
+				background-color: #81a0aa;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #88b8c9;
+				background-color: #81a0aa;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2808,8 +2824,8 @@ ul.icons {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #88b8c9;
-		color: #d2f2e9;
+		background: #81a0aa;
+		color: #4c6a74;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2827,12 +2843,10 @@ ul.icons {
 				color: #ffffff;
 			}
 
-		#header header p {
-			color: #b7eadc;
-		}
+	
 
 		#header a {
-			color: #d2f2e9;
+			color: #4c6a74;
 		}
 
 			#header a:hover {
@@ -2859,7 +2873,7 @@ ul.icons {
 			}
 
 			#header > header p {
-				color: #d2f2e9;
+				color: #4c6a74;
 				font-style: italic;
 				margin: 1em 0 0 0;
                 font-size: 0.9em;
@@ -2884,7 +2898,7 @@ ul.icons {
             }
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #4c6a74;
                     
 				}
 
@@ -2903,7 +2917,7 @@ ul.icons {
             }
 
 				#header > nav ul li {
-					border-top: solid 2px #8cb3c1;
+					border-top: solid 2px #81a0aa;
 					display: block;
 					padding: 0;
 				}
@@ -2922,7 +2936,7 @@ ul.icons {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #8cc5da !important;
+							color: #dda15e !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3190,7 +3204,7 @@ ul.icons {
 					}
 
 					#titleBar .toggle:before {
-						background: #88b8c9;
+						background: #81a0aa;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3314,6 +3328,8 @@ ul.icons {
 					}
 
 					#header > header p {
+					
+					
 						margin: 1em 0 0 0;
 					}
 
