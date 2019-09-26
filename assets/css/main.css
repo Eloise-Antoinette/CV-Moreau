@@ -216,7 +216,7 @@ iframe {
 	h3 {
 		font-size: 2.25em;
 	line-height: 1.5em;
-padding-bottom: 1em;
+	padding-bottom: 1em;
 font-family: "Windsor";
 	}
 
@@ -1798,6 +1798,20 @@ font-family: "Windsor";
 
 		}
 
+		@media screen and (max-width: 300px){
+			h3 {
+				margin-bottom: 3em;
+				padding-bottom: 3em;
+			}
+		}
+
+		@media screen and (max-width: 130px){
+			h3 {
+				margin-bottom: 5em;
+				padding-bottom: 5em;
+			}
+		}
+
 /* Container */
 
 	.container {
@@ -2539,6 +2553,7 @@ height: 100px;
 			
 
 #qualité:before {
+	margin-top: 3.1em;
     background: #fec33b;
     border-radius: 100%;
     color: #ffffff;
@@ -2557,12 +2572,10 @@ height: 100px;
                 text-decoration: none;
                 font-weight: bold;
                 display: inline-block;
-                margin: 0 0 1.6875em 0;
-                padding: 0.35em 0 0 3.5em;
                 position: relative;
                 vertical-align: top;
                 width: 48%;
-				margin-bottom: 3em;
+				margin-bottom: 2em;
 				;
             }
 
