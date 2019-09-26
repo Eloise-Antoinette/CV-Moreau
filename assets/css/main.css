@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+@font-face{
+	font-family: "Windsor";
+	src: url("Windsor-Light-Condensed-BT_48997.ttf");
+}
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -23,7 +28,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+font-family: 'Cambria';}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -146,24 +152,27 @@ iframe {
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+		font-family: "Windsor";
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border: 0;
 			color: inherit;
 			text-decoration: none;
+			font-family: "Windsor";
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 		margin-top: -1.5em;
 	}
 
 	h3 {
-		font-size: 1.75em;
+		font-size: 2.25em;
 	line-height: 1.5em;
 padding-bottom: 1em;
+font-family: "Windsor";
 	}
 
 	h4 {
@@ -1812,7 +1821,7 @@ padding-bottom: 1em;
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.6em;
 		margin-top: -0.35em;
 		line-height: 1.5em;
 	}
@@ -2297,7 +2306,11 @@ height: 100px;
 
                 #parcours p {
                 margin-bottom: 0em;
-                 }
+				 }
+				 
+				 #parcours ul li {
+					 font-style: bold;
+				 } 
 
                 #plus p{
                     margin-bottom: 0em;
@@ -2461,7 +2474,7 @@ height: 100px;
 			}
 
 			ul.feature-icons li:before {
-				background: #dda15e;
+				background: #f6a81a;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2475,7 +2488,7 @@ height: 100px;
 			}
 
 #qualité:before {
-    background: #b27a3c;
+    background: #fec33b;
     border-radius: 100%;
     color: #ffffff;
     display: block;
@@ -2497,7 +2510,8 @@ height: 100px;
                 position: relative;
                 vertical-align: top;
                 width: 48%;
-                margin-bottom: 3em;
+				margin-bottom: 3em;
+				;
             }
 
 
@@ -2922,7 +2936,7 @@ ul.icons {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #dda15e !important;
+							color: #f6a81a !important;
 						}
 
 					#header > nav ul li:first-child {
