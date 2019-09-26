@@ -2939,9 +2939,10 @@ ul.icons {
 
 			#header > header p {
 				color: #4c6a74;
+				text-align : center;
 				font-style: italic;
 				margin: 1em 0 0 0;
-                font-size: 0.9em;
+                font-size: 0.7em;
                 margin-bottom: -0.7em;
 			}
 
