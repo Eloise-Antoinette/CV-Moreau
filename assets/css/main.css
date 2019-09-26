@@ -1874,6 +1874,7 @@ font-family: "Windsor";
 		color: #aaa;
 		position: relative;
 		margin: 0 0 1.6875em 0;
+		
 	}
 
 	header h2 + p {
@@ -3396,7 +3397,8 @@ ul.icons {
 
 					#header > header p {
 					
-					
+						text-align: center;
+						font-size: 0.7em;
 						margin: 1em 0 0 0;
 					}
 
