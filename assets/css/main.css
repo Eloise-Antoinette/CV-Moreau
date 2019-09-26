@@ -6,11 +6,56 @@
 	src: url("Windsor-Light-Condensed-BT_48997.ttf");
 }
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+.snip1217 li {
+display: inline-block;
+list-style: outside none none;
+
+padding: 0;
+}
+
+.snip1217 a {
+padding: 0.3em 0;
+color: rgba(255, 255, 255, 0.5);
+position: relative;
+text-decoration: none;
+display: inline-block;
+}
+
+
+.snip1217 a:before,
+.snip1217 a:after {
+height: 3px;
+position: absolute;
+content: '';
+-webkit-transition: all 0.35s ease;
+transition: all 1s ease;
+background-color: #ffff;
+width: 0;
+}
+
+.snip1217 a:before {
+top: 0;
+left: 0;
+}
+
+
+.snip1217 a:after {
+bottom: 0;
+right: 0;
+}
+
+.snip1217 a:hover,
+.snip1217 .current a {
+color: #ffffff;
+}
+.snip1217 a:hover:before,
+.snip1217 .current a:before,
+.snip1217 a:hover:after,
+.snip1217 .current a:after {
+width: 100%;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1240,7 +1285,10 @@ font-family: "Windsor";
 
 		@media screen and (max-width: 736px) {
 
-			
+			#banner {
+				height: 4.5em;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2937,6 +2985,7 @@ ul.icons {
 						#header > nav ul li a.active {
 							background: #fff;
 							color: #f6a81a !important;
+							width: 100%;
 						}
 
 					#header > nav ul li:first-child {
