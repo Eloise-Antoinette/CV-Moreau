@@ -2977,7 +2977,7 @@ ul.icons {
 		}
 
             #header > nav ul {
-                font-size: 0.8em;
+                font-size: 0.68em;
                 list-style: none;
                 margin: 0;
                 padding: 0;
@@ -2986,7 +2986,7 @@ ul.icons {
 				#header > nav ul li {
 					border-top: solid 2px #81a0aa;
 					display: block;
-					padding: 0;
+					padding: -0.5;
 				}
 
 					#header > nav ul li a {
