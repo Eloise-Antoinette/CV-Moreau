@@ -130,7 +130,8 @@ p{
 
 iframe {
 	width: 100%;
-	margin-left: -6em;
+	margin-left: -2em;
+	padding-right: 6em;
 }
 
 	html {
@@ -1796,6 +1797,10 @@ font-family: "Windsor";
 							padding-top: 2.5em;
 						}
 
+					iframe{
+						margin-left:0em;
+					}
+
 		}
 
 		@media screen and (max-width: 300px){
@@ -2366,6 +2371,10 @@ height: 100px;
 				ul.alt li:first-child {
 					border-top: 0;
 					padding-top: 0;
+				}
+
+				#listicon{
+					margin-top: 1em;
 				}
 
                 #parcours p {
