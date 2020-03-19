@@ -160,7 +160,7 @@ iframe {
 	body, input, select, textarea {
 		color: #888;
 		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-size: 12pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -177,7 +177,7 @@ iframe {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #558292 !important;
+			color: #0da9a7 !important;
 		}
 
 	strong, b {
@@ -215,10 +215,10 @@ iframe {
 	}
 
 	h3 {
-		font-size: 2.25em;
-	line-height: 1.5em;
-	padding-bottom: 1em;
-font-family: "Windsor";
+		font-size: 1.7em;
+		line-height: 1.5em;
+		padding-bottom: 1em;
+		font-family: "Windsor";
 	}
 
 	h4 {
@@ -1967,7 +1967,7 @@ font-family: "Windsor";
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #81a0aa;
+			border-color: #0da9a7;
 		}
 
 	select {
@@ -2072,7 +2072,7 @@ font-family: "Windsor";
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #81a0aa;
+			border-color: #0da9a7;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2598,7 +2598,7 @@ height: 100px;
 
 #qualist {
 	margin-left: 2em;
-    margin-top: -5em;
+    margin-top: -4em;
 }
 
     #qualist li {
@@ -2608,7 +2608,7 @@ height: 100px;
     }
 
 			ul.feature-icons #tit p {
-				margin-bottom : -10px;
+				margin-bottom: 0px;
 				font-weight: normal;
 			}
 
@@ -2711,538 +2711,8 @@ ul.icons {
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
-		-ms-appearan    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-ce: none;
-		appearance:     sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-none;
-		-moz-transit    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-ion: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-tran    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-sition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transiti    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-on: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition:     sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-c    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-olor: #989898;
-		border-radiu    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-s: 5px;
-		border: 0;    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-
-		color: #ffff    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-ff !important;
-		cursor: poin    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-ter;
-		display: inl    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-ine-block;
-		font-weight:    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
- 700;
-		height: 2.75    sprit d'initiative & sens des responsabilités
-
-Mes compétences
-
-    Langages
-
-    Java Script
-
-    (React, Ajax, Jquery)
-
-    Java
-
-    SQL
-
-    HTML & CSS
-
-    JEE
-    Outils
-
-    Java IDE
-
-    Git & GitHub
-
-    Trello
-
-    Gimp
-    Projet et travail d'équipe
-
-    Méthode Agile
-
-    Réalisation de projets en groupe
-    Frameworks
-
-    Bootstrap
-
-    Spring Tool
-
-em;
+		-ms-appearance : 700;
+		height: 2.75 em;
 		line-height: 2.75em;
 		padding: 0 1.5em;
 		text-align: center;
@@ -3335,7 +2805,7 @@ em;
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #81a0aa;
+			background-color: #0da9a7;
 			color: #ffffff !important;
 		}
 
@@ -3343,14 +2813,14 @@ em;
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #81a0aa;
+				background-color: #0da9a7;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #81a0aa;
+				background-color: #0da9a7;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3417,8 +2887,8 @@ em;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #81a0aa;
-		color: #4c6a74;
+		background: #c3dbe2;
+		color: #c3dbe2;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -3433,7 +2903,7 @@ em;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #ffffff;
+				color: #4c6a74;
 			}
 
 	
@@ -3462,8 +2932,8 @@ em;
 			}
 
 			#header > header h1 {
-				font-size: 1.5em;
-				margin: 0;
+				font-size: 2.2em;
+				margin: 0.8em;
 			}
 
 			#header > header p {
@@ -3507,14 +2977,14 @@ em;
 		}
 
             #header > nav ul {
-                font-size: 0.68em;
+                font-size: 1.2em;
                 list-style: none;
                 margin: 0;
                 padding: 0;
             }
 
 				#header > nav ul li {
-					border-top: solid 2px #81a0aa;
+					border-top: solid 2px #c3dbe2;
 					display: block;
 					padding: -0.5;
 				}
@@ -3767,7 +3237,7 @@ em;
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #ffcc3e;
 				color: #fff;
 				min-width: 320px;
 			}
@@ -3813,7 +3283,7 @@ em;
 					}
 
 					#titleBar .toggle:before {
-						background: #81a0aa;
+						background: #c3dbe2;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
