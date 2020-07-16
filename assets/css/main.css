@@ -3,7 +3,7 @@
 
 @font-face{
 	font-family: "Windsor";
-	src: url("Windsor-Light-Condensed-BT_48997.ttf");
+	src: url("Montserrat-Medium.ttf");
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
@@ -74,7 +74,7 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-font-family: 'Cambria';}
+font-family: 'Windsor';}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
